@@ -15,7 +15,7 @@ public class CommandTest implements CommandExecutor {
             return false;
         Player p = (Player) sender;
 
-        Payload tree = PHerobrine.INSTANCE.getPayloadManager().get("tree");
+        Payload tree = PHerobrine.INSTANCE.getPayloadManager().get("behind");
         if(!tree.isRunning())
             tree.setRunning(p);
         return true;

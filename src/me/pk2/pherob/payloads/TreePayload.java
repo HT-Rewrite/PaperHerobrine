@@ -33,14 +33,13 @@ public class TreePayload extends Payload {
                 && block.getRelative(BlockFace.UP).getType() == Material.AIR;
     }
 
-    private boolean isClose(Location loc, int r) {
-        if(!loc.getWorld().getName().equals(npc.getLocation().getWorld().getName()))
+    public static boolean isClose(Location nl, Location loc, int r) {
+        if(!loc.getWorld().getName().equals(nl.getWorld().getName()))
             return false;
         int lx = loc.getBlockX();
         int ly = loc.getBlockY();
         int lz = loc.getBlockZ();
 
-        Location nl = npc.getLocation();
         int nx = nl.getBlockX();
         int ny = nl.getBlockY();
         int nz = nl.getBlockZ();
@@ -54,6 +53,7 @@ public class TreePayload extends Payload {
 
     @Override
     void run(Player p) {
+        this.tasks.clear();
         this.seeking = p;
 
         World world = p.getWorld();
@@ -171,7 +171,7 @@ public class TreePayload extends Payload {
             return;
 
         Player p = event.getPlayer();
-        if(npc.isDeleted() || !isClose(p.getLocation(), 25))
+        if(npc.isDeleted() || !isClose(npc.getLocation(), p.getLocation(), 25))
             return;
 
         //if(BlockUtil.isInsideCone(npc.getLocation(), p.getEyeLocation(), 20, 90, p.getLocation().getYaw()) && !stopping) {

@@ -1,6 +1,7 @@
 package me.pk2.pherob.manager;
 
 import me.pk2.pherob.PHerobrine;
+import me.pk2.pherob.payloads.BehindPayload;
 import me.pk2.pherob.payloads.Payload;
 import me.pk2.pherob.payloads.TreePayload;
 import org.bukkit.Bukkit;
@@ -19,6 +20,7 @@ public class PayloadManager {
     public PayloadManager() {
         this.payloads = new HashMap<>();
         this.payloads.put("tree", new TreePayload());
+        this.payloads.put("behind", new BehindPayload());
 
         this.random = new Random();
     }
