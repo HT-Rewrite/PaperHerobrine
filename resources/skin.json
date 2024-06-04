@@ -1,0 +1,26 @@
+{
+  "id":1100348385,
+  "idStr":"1100348385",
+  "uuid":"7e3af8c4596843f289b0d8bec362c82e",
+  "hash":"11614d37c676dc6d4ecd7aa609928468db85ccbe",
+  "name":"Herobrine",
+  "model":"steve",
+  "variant":"classic",
+  "data":{
+    "uuid":"23603b94-99a9-4b15-8df4-12ba27675a86",
+    "texture":{
+      "value":"ewogICJ0aW1lc3RhbXAiIDogMTY3OTE5NDA5MDgxNCwKICAicHJvZmlsZUlkIiA6ICI4MTYyODhjZGZkZTg0YTIyOGRhMTBlNTI0MzA3MzQwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSeXVKYWNoYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZjI2MTVkYTk4MmYzNGNiMWQyMzE3NTkzNmI2N2JiOWNmZTA0NDBhNDI2Y2U3NTNmZTIwMmMxODBkZDNhMzgiCiAgICB9CiAgfQp9",
+      "signature":"nAecU4eR26kT5sSDi1EkstJuydYZz86NvIo6BGC934imKVbyVavi/KrAFZP8z+6xdDo55SaBoa/VC965l4PRTsTouBlo6WVNsPB4qTfKF1THralo728UJ807psmk88+VJ3g2NXJCdbJ7oGTTk+khpPo4DOiKM5Odtsalsf0BY3zOnPaZlJW+VKvpx481S5kFzRNBnXPQrhReC/ri/pYufF1+zyHuyFX3lZlWhJwKRk8Ss3vUO4tIAJXVsYjs8pkXMH+rYdc/af0RC/wO2Bw/9AsiHV7Z+C0y7fLamn7w3C46u5xurFE73Ki7coHE6OoGJMS/EoHLAgT8lUJA/tn3Bp2cnv7RyLabBUqnoT4WJAK910MA6Qnhjy+xX5BXt09dv8dpuAsbOw7fwIMbdhT1kcwf2+xSVN8s/1tuMhTeIU9SYBTS7DD5MC3+GjHRZzSURcm8nEZMyej7Ulvv8uWcAMGo5gGHpeM9lBCUMg1ewUxVq7xdi9qzVXI4Y/J+S8kalRfgj/qvc28bTOebrfeLmnQyK7QVdwYCUInlCx/lxK6G+rLxVZbkCuDY2yTyxC+cM2nm0jZda5LcBsHTm519sFPirLoInh9BJ1J7AAdfoGczsDeaYJHVfnuVHPRvCsSO2zpdlLhKyl55k64NYTJ/kYfCG49AIgG826oztK+pXtI=",
+      "url":"http://textures.minecraft.net/texture/7f2615da982f34cb1d23175936b67bb9cfe0440a426ce753fe202c180dd3a38",
+      "urls":{"skin":"http://textures.minecraft.net/texture/7f2615da982f34cb1d23175936b67bb9cfe0440a426ce753fe202c180dd3a38"}
+    }
+  },
+  "timestamp":1679194091,
+  "duration":2054,
+  "accountId":1325,
+  "account":1325,
+  "server":"nugget",
+  "private":false,
+  "views":0,
+  "_deprecated":"use /get/uuid/:uuid instead. see https://api.mineskin.org/openapi for details"
+}

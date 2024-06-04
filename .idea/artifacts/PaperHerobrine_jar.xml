@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PaperHerobrine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PaperHerobrine_jar</output-path>
+    <root id="archive" name="PaperHerobrine.jar">
+      <element id="module-output" name="PaperHerobrine" />
+    </root>
+  </artifact>
+</component>

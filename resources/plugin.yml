@@ -1,0 +1,6 @@
+name: PHerobrine
+version: 1.0
+main: me.pk2.pherob.PHerobrine
+commands:
+  htest:
+    usage: /htest
