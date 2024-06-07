@@ -77,10 +77,11 @@ public class BehindPayload extends Payload {
             tasks.add(Bukkit.getScheduler().runTaskLater(PHerobrine.INSTANCE, () -> {
                 npc.delete();
                 running = false;
+                stopping = false;
 
-                PHerobrine.INSTANCE.getLogger().info("{BEHIND} Unseeking");
+                PHerobrine.INSTANCE.getLogger().info("{BEHIND} Forced unseek");
                 tasks.forEach(BukkitTask::cancel);
-            }, 15L));
+            }, 2L));
         }
     }
 }
